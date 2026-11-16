@@ -1,0 +1,17 @@
+{
+  "session_id": "6d9ff665-baa0-49b1-bfea-bc3e0c69225f",
+  "transcript_path": "C:\\Users\\korisnik\\.claude\\projects\\c--Users-korisnik-source-repos-claude-windows-status-spikes-probe-workspace\\6d9ff665-baa0-49b1-bfea-bc3e0c69225f.jsonl",
+  "cwd": "c:\\Users\\korisnik\\source\\repos\\claude-windows-status\\spikes\\probe-workspace",
+  "scratchpad_dir": "C:\\Users\\korisnik\\AppData\\Local\\Temp\\claude\\278b6bb2c4bc9f6d\\6d9ff665-baa0-49b1-bfea-bc3e0c69225f\\scratchpad",
+  "prompt_id": "a5a43584-bd6f-464d-b803-ce9e113e1164",
+  "permission_mode": "plan",
+  "effort": {
+    "level": "xhigh"
+  },
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Read",
+  "tool_input": {
+    "file_path": "C:\\Users\\korisnik\\source\\repos\\claude-windows-status\\spikes\\probe-workspace\\.claude\\settings.json"
+  },
+  "tool_use_id": "toolu_01JY2wsrDtSr899LLrhSFJuB"
+}

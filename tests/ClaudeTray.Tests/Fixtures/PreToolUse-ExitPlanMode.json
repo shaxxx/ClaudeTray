@@ -1,0 +1,18 @@
+{
+  "session_id": "6d9ff665-baa0-49b1-bfea-bc3e0c69225f",
+  "transcript_path": "C:\\Users\\korisnik\\.claude\\projects\\c--Users-korisnik-source-repos-claude-windows-status-spikes-probe-workspace\\6d9ff665-baa0-49b1-bfea-bc3e0c69225f.jsonl",
+  "cwd": "c:\\Users\\korisnik\\source\\repos\\claude-windows-status\\spikes\\probe-workspace",
+  "scratchpad_dir": "C:\\Users\\korisnik\\AppData\\Local\\Temp\\claude\\278b6bb2c4bc9f6d\\6d9ff665-baa0-49b1-bfea-bc3e0c69225f\\scratchpad",
+  "prompt_id": "a5a43584-bd6f-464d-b803-ce9e113e1164",
+  "permission_mode": "plan",
+  "effort": {
+    "level": "xhigh"
+  },
+  "hook_event_name": "PreToolUse",
+  "tool_name": "ExitPlanMode",
+  "tool_input": {
+    "plan": "# Plan: datoteka hello.txt\n\n## Kontekst\nKorisnik tra┼żi datoteku `hello.txt`. Radni direktorij\n`spikes/probe-workspace` je prazan, osim `.claude/settings.json`. U njemu su\nhookovi koji na svaki doga─Ĺ…",
+    "planFilePath": "C:\\Users\\korisnik\\.claude\\plans\\napravi-plan-za-datoteku-adaptive-yeti.md"
+  },
+  "tool_use_id": "toolu_01QAHtE4TUFuX2w6yzfAu79W"
+}

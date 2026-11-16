@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <AssemblyName>ClaudeTray</AssemblyName>
+    <RootNamespace>ClaudeTray</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- Generira ga ClaudeTray.exe s argumentom render-app-icon (vidi README, odjeljak Build). -->
+    <ApplicationIcon>ClaudeTray.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClaudeTray.Core\ClaudeTray.Core.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+{
+  "session_id": "6d9ff665-baa0-49b1-bfea-bc3e0c69225f",
+  "transcript_path": "C:\\Users\\korisnik\\.claude\\projects\\c--Users-korisnik-source-repos-claude-windows-status-spikes-probe-workspace\\6d9ff665-baa0-49b1-bfea-bc3e0c69225f.jsonl",
+  "cwd": "c:\\Users\\korisnik\\source\\repos\\claude-windows-status\\spikes\\probe-workspace",
+  "scratchpad_dir": "C:\\Users\\korisnik\\AppData\\Local\\Temp\\claude\\278b6bb2c4bc9f6d\\6d9ff665-baa0-49b1-bfea-bc3e0c69225f\\scratchpad",
+  "prompt_id": "a5a43584-bd6f-464d-b803-ce9e113e1164",
+  "hook_event_name": "Notification",
+  "message": "Claude needs your permission to use ExitPlanMode",
+  "notification_type": "permission_prompt"
+}

@@ -1,0 +1,9 @@
+{
+  "session_id": "6d9ff665-baa0-49b1-bfea-bc3e0c69225f",
+  "transcript_path": "C:\\Users\\korisnik\\.claude\\projects\\c--Users-korisnik-source-repos-claude-windows-status-spikes-probe-workspace\\6d9ff665-baa0-49b1-bfea-bc3e0c69225f.jsonl",
+  "cwd": "c:\\Users\\korisnik\\source\\repos\\claude-windows-status\\spikes\\probe-workspace",
+  "prompt_id": "a5a43584-bd6f-464d-b803-ce9e113e1164",
+  "hook_event_name": "Notification",
+  "message": "Claude is waiting for your input",
+  "notification_type": "idle_prompt"
+}

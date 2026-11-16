@@ -1,0 +1,30 @@
+{
+  "session_id": "8860b1db-d204-45e6-b36a-19d0aff7f4b3",
+  "transcript_path": "C:\\Users\\korisnik\\.claude\\projects\\c--Users-korisnik-source-repos-claude-windows-status-spikes-probe-workspace\\8860b1db-d204-45e6-b36a-19d0aff7f4b3.jsonl",
+  "cwd": "c:\\Users\\korisnik\\source\\repos\\claude-windows-status\\spikes\\probe-workspace",
+  "scratchpad_dir": "C:\\Users\\korisnik\\AppData\\Local\\Temp\\claude\\278b6bb2c4bc9f6d\\8860b1db-d204-45e6-b36a-19d0aff7f4b3\\scratchpad",
+  "prompt_id": "c0d2f9a2-164b-4b64-93a4-e77cdfd76f38",
+  "permission_mode": "acceptEdits",
+  "effort": {
+    "level": "xhigh"
+  },
+  "hook_event_name": "PermissionRequest",
+  "tool_name": "PowerShell",
+  "tool_input": {
+    "command": "ping -n 30 127.0.0.1",
+    "description": "Ping localhost 30 times"
+  },
+  "permission_suggestions": [
+    {
+      "type": "addRules",
+      "rules": [
+        {
+          "toolName": "PowerShell",
+          "ruleContent": "ping -n 30 127.0.0.1"
+        }
+      ],
+      "behavior": "allow",
+      "destination": "localSettings"
+    }
+  ]
+}

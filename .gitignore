@@ -1,0 +1,10 @@
+# .NET build
+bin/
+obj/
+artifacts/
+*.user
+.vs/
+TestResults/
+
+# Radne mape alata (dnevnik napretka, paketi za pregled)
+.superpowers/

@@ -1,0 +1,25 @@
+{
+  "session_id": "6d9ff665-baa0-49b1-bfea-bc3e0c69225f",
+  "transcript_path": "C:\\Users\\korisnik\\.claude\\projects\\c--Users-korisnik-source-repos-claude-windows-status-spikes-probe-workspace\\6d9ff665-baa0-49b1-bfea-bc3e0c69225f.jsonl",
+  "cwd": "c:\\Users\\korisnik\\source\\repos\\claude-windows-status\\spikes\\probe-workspace",
+  "scratchpad_dir": "C:\\Users\\korisnik\\AppData\\Local\\Temp\\claude\\278b6bb2c4bc9f6d\\6d9ff665-baa0-49b1-bfea-bc3e0c69225f\\scratchpad",
+  "prompt_id": "a5a43584-bd6f-464d-b803-ce9e113e1164",
+  "permission_mode": "plan",
+  "effort": {
+    "level": "xhigh"
+  },
+  "hook_event_name": "PostToolUse",
+  "tool_name": "PowerShell",
+  "tool_input": {
+    "command": "Get-ChildItem -Force | Format-Table Name, Length, LastWriteTime -AutoSize; if (Test-Path hello.txt) { \"--- hello.txt ---\"; Get-Content hello.txt }",
+    "description": "List probe workspace and show hello.txt if present"
+  },
+  "tool_response": {
+    "stdout": "Name    Length LastWriteTime\r\n----    ------ -------------\r\n.claude        13.11.2026. 14:06:04",
+    "stderr": "",
+    "interrupted": false,
+    "isImage": false
+  },
+  "tool_use_id": "toolu_0126NyePyYNhBCdoNfBnyK35",
+  "duration_ms": 328
+}
