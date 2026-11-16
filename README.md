@@ -151,20 +151,22 @@ Za testiranje se mape mogu preusmjeriti varijablama `CLAUDE_TRAY_HOME` (stanje i
 
 ## Ručna provjera
 
-- [ ] Ikone na tamnoj traci: mirovanje (bijela), radi (vrti se i pulsira), čeka te (žuta točka), greška (crvena).
-- [ ] Ikone na svijetloj traci: mirovanje je crna zvjezdica, ostale boje su iste.
-- [ ] Skaliranje 100 %, 150 % i 175 %: ikona je oštra i ispunjava mjesto u traci.
-- [ ] Smanjeni pokret (*Pristupačnost → Vizualni efekti → Efekti animacije* isključeni): ikona za rad stoji umjesto da se vrti.
-- [ ] Klik na sesiju u sidebaru VS Codea: pravi prozor dolazi u prvi plan, a sesija ostaje u sidebaru, bez novog taba.
-- [ ] Klik na sesiju u tabu VS Codea: pravi prozor i taj tab dolaze u prvi plan.
-- [ ] Klik na CLI sesiju u terminalu VS Codea: pravi prozor VS Codea dolazi u prvi plan.
-- [ ] Klik na CLI sesiju u Windows Terminalu (prozor minimiziran): prozor se vraća i dolazi u prvi plan.
-- [ ] Izlaz: tray nestaje i ne vraća se uz nove događaje postojećih sesija; nova sesija ga vraća.
-- [ ] Samogašenje: nakon zatvaranja svih sesija tray nestaje za nekoliko sekundi.
-- [ ] Promjena teme dok tray radi: izbornik se pri sljedećem otvaranju prebaci na svijetle ili tamne boje.
-- [ ] Promjena skaliranja dok tray radi (npr. 175 % → 100 %): izbornik se otvara iznad ikone, a podnaslov je manji od glavnog retka i cijeli vidljiv.
-- [ ] Potvrda greške: klik na sesiju s greškom vraća ikonu u mirovanje, a crvena točka u izborniku ostaje do novog prompta.
-- [ ] Klik na sesiju čija mapa nije otvorena ni u jednom prozoru VS Codea: ništa se ne otvara.
+Sve stavke provjerene su za izdanje 1.0.0 (16. 11. 2026., Windows 11, 4K zaslon). Ishodi i greške nađene usput opisani su u Dodatku B [specifikacije](docs/superpowers/specs/2026-11-13-claude-tray-design.md). Prije nove verzije popis treba proći ponovno.
+
+- [x] Ikone na tamnoj traci: mirovanje (bijela), radi (vrti se i pulsira), čeka te (žuta točka), greška (crvena).
+- [x] Ikone na svijetloj traci: mirovanje je crna zvjezdica, ostale boje su iste.
+- [x] Skaliranje 100 %, 150 % i 175 %: ikona je oštra i ispunjava mjesto u traci.
+- [x] Smanjeni pokret (*Pristupačnost → Vizualni efekti → Efekti animacije* isključeni): ikona za rad stoji umjesto da se vrti.
+- [x] Klik na sesiju u sidebaru VS Codea: pravi prozor dolazi u prvi plan, a sesija ostaje u sidebaru, bez novog taba.
+- [x] Klik na sesiju u tabu VS Codea: pravi prozor i taj tab dolaze u prvi plan.
+- [x] Klik na CLI sesiju u terminalu VS Codea: pravi prozor VS Codea dolazi u prvi plan.
+- [x] Klik na CLI sesiju u Windows Terminalu (prozor minimiziran): prozor se vraća i dolazi u prvi plan.
+- [x] Izlaz: tray nestaje i ne vraća se uz nove događaje postojećih sesija; nova sesija ga vraća.
+- [x] Samogašenje: nakon zatvaranja svih sesija tray nestaje za nekoliko sekundi (provjereno s privremenom mapom stanja: 4 s nakon zadnje sesije).
+- [x] Promjena teme dok tray radi: izbornik se pri sljedećem otvaranju prebaci na svijetle ili tamne boje.
+- [x] Promjena skaliranja dok tray radi (npr. 175 % → 100 %): izbornik se otvara iznad ikone, a podnaslov je manji od glavnog retka i cijeli vidljiv.
+- [x] Potvrda greške: klik na sesiju s greškom vraća ikonu u mirovanje, a crvena točka u izborniku ostaje do novog prompta.
+- [x] Klik na sesiju čija mapa nije otvorena ni u jednom prozoru VS Codea: ništa se ne otvara.
 
 ## Licenca
 
