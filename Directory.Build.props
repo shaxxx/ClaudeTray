@@ -3,5 +3,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
+    <!-- Verzija izdanja: svojstva exe-a i oznaka na GitHubu (v1.0.0). -->
+    <Version>1.0.0</Version>
+    <Product>ClaudeTray</Product>
+    <Copyright>Copyright (c) 2026 shaxxx</Copyright>
   </PropertyGroup>
 </Project>

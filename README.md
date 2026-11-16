@@ -15,7 +15,7 @@ Najlakše je zamoliti svog agenta, na primjer Claude Code:
 
 > Instaliraj ClaudeTray s https://github.com/shaxxx/ClaudeTray
 
-Agent slijedi upute iz [AGENTS.md](AGENTS.md): provjeri preduvjete, napravi build, pita te prije izmjene `~/.claude/settings.json` i na kraju te uputi na jedini ručni korak, a to je jednom izvući ikonu iz `^` na traku. Ručni postupak opisan je niže.
+Agent slijedi upute iz [AGENTS.md](AGENTS.md): provjeri preduvjete, preuzme gotovo izdanje i provjeri njegov SHA256, pita te prije izmjene `~/.claude/settings.json` i na kraju te uputi na jedini ručni korak, a to je jednom izvući ikonu iz `^` na traku. Ručni postupak opisan je niže.
 
 ## Što ikona znači
 
@@ -45,9 +45,21 @@ Prioritet je: čeka te > greška > radi > potvrđena greška > gotovo/mirovanje.
 - `ClaudeTray.exe` (WinForms) prati tu mapu i crta ikonu.
 - Tray se sam gasi nekoliko sekundi nakon što nestane zadnja sesija.
 
+## Gotovo izdanje
+
+Na stranici [Releases](https://github.com/shaxxx/ClaudeTray/releases/latest) preuzmi `ClaudeTray-win-x64.zip` i raspakiraj ga bilo gdje. Jedini preduvjet je [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0). Zatim u toj mapi pokreni:
+
+```powershell
+.\ClaudeTray.exe --install | Out-String
+```
+
+Exe nije digitalno potpisan, pa Windows SmartScreen pri prvom pokretanju preuzete datoteke može upozoriti („Windows je zaštitio vaše računalo"). Tada odaberi *Više informacija → Ipak pokreni*, ili prije pokretanja u PowerShellu upiši `Get-ChildItem | Unblock-File`. Kontrolni zbroj je u `ClaudeTray-win-x64.zip.sha256`.
+
+Što instalacija radi i što slijedi nakon nje opisano je u odjeljku [Instalacija](#instalacija).
+
 ## Build
 
-Potrebni su .NET SDK 10 i Visual Studio (ili Build Tools) s C++ alatima, za Native AOT.
+Za build iz izvornog koda potrebni su .NET SDK 10 i Visual Studio (ili Build Tools) s C++ alatima, za Native AOT.
 
 ```
 git clone https://github.com/shaxxx/ClaudeTray.git
@@ -67,6 +79,8 @@ artifacts\publish\ClaudeTray.exe --render-app-icon src\ClaudeTray\ClaudeTray.ico
 ```
 
 ## Instalacija
+
+Iz mape gotovog izdanja pokreni `.\ClaudeTray.exe --install`, a nakon builda:
 
 ```powershell
 artifacts\publish\ClaudeTray.exe --install | Out-String
